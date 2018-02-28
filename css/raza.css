@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica; 
+    background-color:#151922;
+}
+
+.contenedor{   
+    position: absolute;    
+}
+
+h1{
+   position:fixed ;
+    color: white;
+    font-size: 60px;
+    position: relative; 
+    
+    
+}
+
+.titulo{
+    display: inline-block;
+    width: 36px;   
+    height: 800px;
+    writing-mode: vertical-rl;
+    text-align: initial;
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+    margin: 0;
+    
+}
+.texto-raza{
+   
+    width: 100px;    
+    height: 800px;
+    display: none;
+    color: white;
+    font-weight: 550;
+    
+    
+    
+}
+
+.texto-raza:target{
+    width: 900px;
+    display: inline-block;
+    
+}
+div{ 
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    height: 386px;
+    float: left;
+}
+
+.texto{
+    float: left;
+}
+  
+
+#a-humano{
+    background-color:#017E7A;
+}
+
+#humano{
+    background-color: #017E7A;
+}
+
+#a-elfo{
+    background-color: #A32E24;
+}
+
+#elfo{
+    background-color: #A32E24;
+}
+
+#a-semi-elfo{
+background-color: #C14401;
+}
+
+#semi-elfo{
+    background-color: #C14401;
+}
+#a-semi-orco{
+background-color: #41740B;
+}
+
+#semi-orco{
+background-color: #41740B;   
+}
+
+#a-mediano{
+background-color: #FD9502;
+}
+
+#mediano{
+    background-color: #FD9502;
+}
+
+#a-enano{
+background-color: #2B4506;
+}
+#enano{
+    background-color: #2B4506;
+}
+
+#a-gnomo{
+ background-color: #4F028C;   
+}
+
+
+#gnomo{
+    background-color: #4F028C;   
+   }
+
+.rasgos{
+    font-weight: bold;
+    text-decoration: none;
+    color:white;    
+    display: block; 
+    padding: 1em; 
+    background-color:tomato;  
+    margin: 5px;
+    
+    
+}
+#activar{
+   background-color: rgb(27, 156, 231);
+
+}
+#header{
+    background-image: url('../img/logo-copia.jpg'); 
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.rasgos:hover{
+    background-color: red;    
+}
+#activar:hover{
+    background-color: blue;
+}
